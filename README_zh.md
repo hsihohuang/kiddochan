@@ -17,8 +17,8 @@ Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 可愛且適合所有螢�
 
 
 ### Phone
-![kiddochan-phone-1](screenshots/kiddochan_phone1.png)
-![kiddochan-phone-2](screenshots/kiddochan_phone2.png)
+![kiddochan-phone-1](screenshots/kiddochan_phone1.png | width=100)
+![kiddochan-phone-2](screenshots/kiddochan_phone2.png | width=100)
 
 
 ##安裝教學

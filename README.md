@@ -15,8 +15,8 @@ Kiddochan is a cute, simple and responsive theme for [Hexo](http://hexo.io) base
 
 
 ### Phone
-![kiddochan-phone-1](screenshots/kiddochan_phone1.png)
-![kiddochan-phone-2](screenshots/kiddochan_phone2.png)
+![kiddochan-phone-1](screenshots/kiddochan_phone1.png | width=100)
+![kiddochan-phone-2](screenshots/kiddochan_phone2.png | width=100)
 
 ##Installation
 ###Install
