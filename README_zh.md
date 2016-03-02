@@ -13,12 +13,11 @@ Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 可愛且適合所有螢�
 ![kiddochan-pc](screenshots/kiddochan_pc.png)
 
 ### Pad
-![kiddochan-pad](screenshots/kiddochan_pad.png)
-
+<img src="screenshots/kiddochan_pad.png" width="650">
 
 ### Phone
-![kiddochan-phone-1](screenshots/kiddochan_phone1.png | width=100)
-![kiddochan-phone-2](screenshots/kiddochan_phone2.png | width=100)
+<img src="screenshots/kiddochan_phone1.png" width="400">
+<img src="screenshots/kiddochan_phone2.png" width="400">
 
 
 ##安裝教學
