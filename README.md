@@ -11,11 +11,11 @@ Kiddochan is a cute, simple and responsive theme for [Hexo](http://hexo.io) base
 ![kiddochan-pc](screenshots/kiddochan_pc.png)
 
 ### Pad
-<img src="screenshots/kiddochan_pad.png" width="500">
+<img src="screenshots/kiddochan_pad.png" width="800">
 
 ### Phone
-<img src="screenshots/kiddochan_phone1.png" width="500">
-<img src="screenshots/kiddochan_phone2.png" width="500">
+<img src="screenshots/kiddochan_phone1.png" width="400">
+<img src="screenshots/kiddochan_phone2.png" width="400">
 
 ##Installation
 ###Install
