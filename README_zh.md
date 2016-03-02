@@ -5,7 +5,20 @@
 Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 可愛且適合所有螢幕尺寸的主題樣式，是基於[Jacman](https://github.com/wuchong/jacman)修改而来。
 
 
-[主題範例](http://blog.hsihohuang.info) 
+[主題預覽](http://blog.hsihohuang.info) 
+
+
+##截圖
+### PC
+![kiddochan-pc](screenshots/kiddochan-pc.png)
+
+### Pad
+![kiddochan-pad](screenshots/kiddochan-pad.png)
+
+
+### Phone
+![kiddochan-phone-1](screenshots/kiddochan-phone1.png)
+![kiddochan-phone-2](screenshots/kiddochan-phone2.png)
 
 
 ##安裝教學
@@ -23,7 +36,7 @@ git pull origin master
 ```
 **請先備份您主題目錄下的 `_config.yml` 文件後再升级。**
 
-##設定指南
+##設定
 
 修改  `/themes/kiddochan/_config.yml` 中的設定。
 
