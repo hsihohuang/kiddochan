@@ -1,0 +1,15 @@
+<footer class="article-footer clearfix">
+<%- partial('catetags') %>
+<% if (index){ %>
+<div class="comments-count">
+	<% if((config.disqus_shortname || theme.disqus_shortname) && !theme.duoshuo_shortname) { %>
+	  	<span></span>
+		<a href="<%- config.root %><%- item.path %>#disqus_thread" class="comments-count-link">Comments</a>
+	<% } else if(theme.duoshuo_shortname) { %>
+	  	<span></span>
+		<a href="<%- config.root %><%- item.path %>#comments" class="ds-thread-count comments-count-link" data-thread-key="<%- item.path %>" data-count-type="comments">&nbsp;</a>
+	<% } %>
+</div>
+<% } %>
+</footer>
+

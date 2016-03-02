@@ -1,0 +1,53 @@
+<div class="openaside"><a class="navbutton" href="#" title="<%= __('showsidebar') %>"></a></div>
+<% if( table&&(item.toc !== false) && theme.toc.aside){ %>
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title"><%= __('contents') %></strong>
+ <% if(item.list_number == false) {%>
+ <%- toc(item.content,{list_number:false}) %>
+ <% }else{ %>
+ <%- toc(item.content) %>
+ <% } %>
+  </div>
+<% } %>
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="<%= __('hidesidebar') %>"></a></div>
+<aside class="clearfix">
+<div id="authorInfo">
+	<div class="social-info" class="clearfix">
+		<% if(theme.author.weibo){ %>
+		<a href="http://weibo.com/<%= theme.author.weibo %>" target="_blank" class="icon-weibo" title="微博"></a>
+		<% } %>
+		<% if(theme.author.github){ %>
+		<a href="https://github.com/<%=theme.author.github %>" target="_blank" class="icon-github" title="github"></a>
+		<% } %>
+		<% if(theme.author.stackoverflow){ %>
+		<a href="http://stackoverflow.com/users/<%=theme.author.stackoverflow %>" target="_blank" class="icon-stack-overflow" title="stackoverflow"></a>
+		<% } %>
+		<% if(theme.author.twitter){ %>
+		<a href="https://twitter.com/<%=theme.author.twitter %>" target="_blank" class="icon-twitter" title="twitter"></a>
+		<% } %>
+		<% if(theme.author.facebook){ %>
+		<a href="https://www.facebook.com/<%=theme.author.facebook %>" target="_blank" class="icon-facebook" title="facebook"></a>
+		<% } %>
+		<% if(theme.author.linkedin){ %>
+		<a href="https://www.linkedin.com/in/<%=theme.author.linkedin %>" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		<% } %>
+		<% if(theme.author.douban){ %>
+		<a href="https://www.douban.com/people/<%=theme.author.douban %>" target="_blank" class="icon-douban" title="豆瓣"></a>
+		<% } %>
+		<% if(theme.author.zhihu){ %>
+		<a href="http://www.zhihu.com/people/<%=theme.author.zhihu %>" target="_blank" class="icon-zhihu" title="知乎"></a>
+		<% } %>
+		<% if(theme.author.google_plus){ %>
+		<a href="https://plus.google.com/<%=theme.author.google_plus %>?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
+		<% } %>
+		<% if(theme.author.email){ %>
+		<a href="mailto:<%=theme.author.email %>" target="_blank" class="icon-email" title="Email Me"></a>
+		<% } %>
+	</div>
+</div>
+<% theme.widgets.forEach(function(widget){ %>
+  <%- partial('../_widget/' + widget) %>
+<% }); %>
+</aside>
+</div>
