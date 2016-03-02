@@ -8,15 +8,15 @@ Kiddochan is a cute, simple and responsive theme for [Hexo](http://hexo.io) base
 
 ##Screenshots
 ### PC
-![kiddochan-pc](screenshots/kiddochan-pc.png)
+![kiddochan-pc](screenshots/kiddochan_pc.png)
 
 ### Pad
-![kiddochan-pad](screenshots/kiddochan-pad.png)
+![kiddochan-pad](screenshots/kiddochan_pad.png)
 
 
 ### Phone
-![kiddochan-phone-1](screenshots/kiddochan-phone1.png)
-![kiddochan-phone-2](screenshots/kiddochan-phone2.png)
+![kiddochan-phone-1](screenshots/kiddochan_phone1.png)
+![kiddochan-phone-2](screenshots/kiddochan_phone2.png)
 
 ##Installation
 ###Install
