@@ -41,9 +41,9 @@ banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color
 # you can change the color quickly here. if you want to use the default colors, just don't set them.
 theme_color:
-    theme: '#D07272'       ## default: '#2c3e50'
-    background: '#F7E5E5'  ## default: '#158597'
-    footer: '#4A4848'      ## default: '#2c3e50'
+    theme: '#ECA70C'       ## default: '#2c3e50'
+    background: '#EEE'  ## default: '#158597'
+    footer: '#7B5705'      ## default: '#2c3e50'
 
 # code highlight theme
 # available: default | night
@@ -86,7 +86,7 @@ toc:
 
 #### Links 
 links:
-  #link1's name: link1's url  
+  link1's name: link1's url  
   #link2's name: link2's url  
 
 #### Comment

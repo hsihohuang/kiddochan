@@ -188,5 +188,11 @@ tinysou_search:     ## http://tinysou.com/
 ### Example 2
 ![example2](screenshots/example2.png)
 
+### Example 3
+![example2](screenshots/example3.png)
+
+### Example 4
+![example2](screenshots/example4.png)
+
 ##License
 [MIT](/LICENSE)
