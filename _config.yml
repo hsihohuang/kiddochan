@@ -31,7 +31,7 @@ rss: atom.xml ## RSS address.
 
 #### Image
 imglogo:
-  enable: false             ## display image logo true/false.
+  enable: true             ## display image logo true/false.
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/kiddochan/source/img`.
 favicon: img/unnamed4_n_mSY_icon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/kiddochan/source/img`.     
 apple_icon: img/profile.png ## size:114px*114px,please put image into the theme folder `/kiddochan/source/img`.
@@ -41,9 +41,9 @@ banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color
 # you can change the color quickly here. if you want to use the default colors, just don't set them.
 theme_color:
-    theme: '#ECA70C'       ## default: '#2c3e50'
-    background: '#EEE'  ## default: '#158597'
-    footer: '#7B5705'      ## default: '#2c3e50'
+    theme: ''       ## default: '#2c3e50'
+    background: ''  ## default: '#158597'
+    footer: ''      ## default: '#2c3e50'
 
 # code highlight theme
 # available: default | night
@@ -72,7 +72,7 @@ author:
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   github: hsihohuang    ## e.g. hsihohuang for https://github.com/hsihohuang
   facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin:  test ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
   tumblr: hsihohuang    ## e.g. hsihohuang for http://hsihohuang.tumblr.com/
