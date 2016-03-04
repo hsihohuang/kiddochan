@@ -39,6 +39,12 @@ git pull origin master
 
 修改  `/themes/kiddochan/_config.yml` 中的設定。
 
+##個人化設定之範例
+### 範例 1
+![example1](screenshots/example1.png)
+
+### 範例 2
+![example2](screenshots/example2.png)
 
 ##License
 [MIT](/LICENSE)
