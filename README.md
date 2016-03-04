@@ -189,10 +189,10 @@ tinysou_search:     ## http://tinysou.com/
 ![example2](screenshots/example2.png)
 
 ### Example 3
-![example2](screenshots/example3.png)
+![example3](screenshots/example3.png)
 
 ### Example 4
-![example2](screenshots/example4.png)
+![example4](screenshots/example4.png)
 
 ##License
 [MIT](/LICENSE)
