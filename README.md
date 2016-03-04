@@ -181,5 +181,12 @@ tinysou_search:     ## http://tinysou.com/
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
 ```
 
+##Some custom examples
+### Example 1
+![example1](screenshots/example1.png)
+
+### Example 2
+![example2](screenshots/example2.png)
+
 ##License
 [MIT](/LICENSE)
