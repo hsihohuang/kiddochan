@@ -215,6 +215,29 @@
   margin 0.8em 0 0.2em
   line-height 28px
 
+.author-img
+  width w=(110/16)em
+  height w
+  margin 0 auto
+  background no-repeat url("../"+author-img) left top 
+  background-size w w
+  border-radius (w/2)
+  transition transform 2s ease-out
+  &:hover
+    transform rotateZ(360deg)
+  @media tablet
+    float none
+    width w=(110/12)em
+    height w
+    background-size w w
+    border-radius (w/2)
+    margin 0 auto
+  @media mini
+    margin 0 1em 0 0
+    float none
+    margin 0 auto
+  
+
 .social-info
   width 100%
   margin 50 auto
@@ -241,7 +264,7 @@
     &:hover:before
       color color-blue
 
-.icon-weibo:before,.icon-github:before,.icon-twitter:before,.icon-facebook:before,.icon-stack-overflow:before,.icon-email:before,.icon-google_plus:before,.icon-linkedin:before
+.icon-weibo:before,.icon-github:before,.icon-twitter:before,.icon-facebook:before,.icon-stack-overflow:before,.icon-email:before,.icon-google_plus:before,.icon-linkedin:before,.icon-tumblr:before
   font-family font-icon-family
   font-smoothing()
  
@@ -261,6 +284,8 @@
   content "\f0d5"
 .icon-linkedin:before
   content "\f08c"
+.icon-tumblr:before
+  content "\f174"
 .icon-douban:before
   font-family font-icon-diao
   font-smoothing()

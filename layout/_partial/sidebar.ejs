@@ -13,6 +13,9 @@
 <div class="closeaside"><a class="closebutton" href="#" title="<%= __('hidesidebar') %>"></a></div>
 <aside class="clearfix">
 <div id="authorInfo">
+	<% if(theme.author_img){ %>
+		<div class="author-img"></div>		
+	<% } %>
 	<div class="social-info" class="clearfix">
 		<% if(theme.author.weibo){ %>
 		<a href="http://weibo.com/<%= theme.author.weibo %>" target="_blank" class="icon-weibo" title="微博"></a>
@@ -41,9 +44,13 @@
 		<% if(theme.author.google_plus){ %>
 		<a href="https://plus.google.com/<%=theme.author.google_plus %>?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
 		<% } %>
+		<% if(theme.author.tumblr){ %>
+		<a href="http://<%=theme.author.tumblr %>.tumblr.com" target="_blank" class="icon-tumblr" title="Tumblr"></a>
+		<% } %>
 		<% if(theme.author.email){ %>
 		<a href="mailto:<%=theme.author.email %>" target="_blank" class="icon-email" title="Email Me"></a>
 		<% } %>
+
 	</div>
 </div>
 <% theme.widgets.forEach(function(widget){ %>

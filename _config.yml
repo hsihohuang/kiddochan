@@ -10,7 +10,7 @@ menu:
 ## title: tags (or categories)
 ## --
 ## To create your "about" page, you can run the command "$ hexo new page about" 
-## under your hexo dir and then you can modify your about page in "source/about/index.md"
+## under your hexo dir and then you can modify your about page in `source/about/index.md`
 ## ---
 
 #### Widgets
@@ -27,7 +27,7 @@ widgets:
 
 
 #### RSS 
-rss:  ## RSS address.
+rss: atom.xml ## RSS address.
 
 #### Image
 imglogo:
@@ -35,10 +35,15 @@ imglogo:
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/kiddochan/source/img`.
 favicon: img/unnamed4_n_mSY_icon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/kiddochan/source/img`.     
 apple_icon: img/profile.png ## size:114px*114px,please put image into the theme folder `/kiddochan/source/img`.
+author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
-### Theme Color 
+
+### Theme Color
+# you can change the color quickly here. if you want to use the default colors, just don't set them.
 theme_color:
-    theme: '#2c3e50'   
+    theme: ''       ## default: '#2c3e50'
+    background: ''  ## default: '#158597'
+    footer: ''      ## default: '#2c3e50'
 
 # code highlight theme
 # available: default | night
@@ -70,6 +75,7 @@ author:
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  tumblr: hsihohuang    ## e.g. hsihohuang for http://hsihohuang.tumblr.com/
 
 #### Toc
 toc:
@@ -109,7 +115,9 @@ cnzz_tongji:
   siteid:    ## e.g. 1255875723 your cnzz tongji site id
 
 #### Miscellaneous
-ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/kiddochan/source/css`.
+ShowCustomFont: true  
+## you can add custom font files in `kiddochan/source/font`(.ttf, .woff, .svg, .eot) 
+## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
 
@@ -117,7 +125,7 @@ totop: true           ## if you want to scroll to top in every post set the valu
 #### Custom Search
 google_cse: 
   enable: false
-  cx:   ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
+  cx:   ## e.g. 003570875242930637062:df_fexfhicw your Custom Search ID.
 ## https://www.google.com/cse/ 
 ## To enable the custom search You must create a "search" folder in '/source' and a "index.md" file
 ## set the 'front-matter' as
