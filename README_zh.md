@@ -44,35 +44,35 @@ git pull origin master
 ### 範例 1
 theme: '#403D3D'       
 background: '#DBDBDB'  
-footer: '#403D3D'
+footer: '#403D3D' <br>
 Font-style: cool
 ![example1](screenshots/example1.png)
 
 ### 範例 2
 theme: '#D07272'       
 background: '#FCC'  
-footer: '#4A4848'
+footer: '#4A4848' <br>
 Font-style: cute
 ![example2](screenshots/example2.png)
 
 ### 範例 3
 theme: '#279BAB'       
 background: '#15464C'  
-footer: '#15464C'
+footer: '#15464C' <br>
 Font-style: cool
 ![example3](screenshots/example3.png)
 
 ### 範例 4
 theme: '#ECA70C'       
 background: '#EEE'  
-footer: '#7B5705'
+footer: '#7B5705' <br>
 Font-style: cute
 ![example4](screenshots/example4.png)
 
 ### 範例 5
 theme: '#2D9853'       
 background: '#D3DCDA'  
-footer: '#111F1A'
+footer: '#111F1A' <br>
 Font-style: custom
 ![example5](screenshots/example5.png)
 
