@@ -2,7 +2,7 @@
 
 [中文Readme](/README_zh.md)
 
-Kiddochan is a cute, simple and responsive theme for [Hexo](http://hexo.io) based on [Jacman](https://github.com/wuchong/jacman).  
+Kiddochan is a simple, flexible and responsive theme for [Hexo](http://hexo.io) based on [Jacman](https://github.com/wuchong/jacman). Some custom theme examples are at the bottom. 
 
 [Demo](http://blog.hsihohuang.info) 
 
@@ -63,8 +63,6 @@ widgets:
 #- github-card
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
 
-
-
 #### RSS 
 rss: atom.xml ## RSS address.
 
@@ -78,11 +76,18 @@ author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if 
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 
 ### Theme Color
-# you can change the color quickly here. if you want to use the default colors, just don't set them.
+# you can change theme color quickly here. if you want to use the default colors, just don't set them.
 theme_color:
     theme: ''       ## default: '#2c3e50'
     background: ''  ## default: '#158597'
     footer: ''      ## default: '#2c3e50'
+
+### Font Style
+Font-style: cute
+## you can choose: default , cute , cool , custom   
+## if you choose custom, you have to add custom font files in `kiddochan/source/font`(.ttf, .woff, .svg, .eot) 
+## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.
+## Note: default custom font is "ReenieBeanie", you can change this to yours
 
 # code highlight theme
 # available: default | night
@@ -125,7 +130,7 @@ toc:
 
 #### Links 
 links:
-  #link1's name: link1's url  
+  link1's name: link1's url  
   #link2's name: link2's url  
 
 #### Comment
@@ -154,9 +159,6 @@ cnzz_tongji:
   siteid:    ## e.g. 1255875723 your cnzz tongji site id
 
 #### Miscellaneous
-ShowCustomFont: true  
-## you can add custom font files in `kiddochan/source/font`(.ttf, .woff, .svg, .eot) 
-## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
 
@@ -181,18 +183,41 @@ tinysou_search:     ## http://tinysou.com/
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
 ```
 
-##Some custom examples
+##Some custom theme examples
 ### Example 1
+theme: '#403D3D'       
+background: '#DBDBDB'  
+footer: '#403D3D'
+Font-style: cool
 ![example1](screenshots/example1.png)
 
 ### Example 2
+theme: '#D07272'       
+background: '#FCC'  
+footer: '#4A4848'
+Font-style: cute
 ![example2](screenshots/example2.png)
 
 ### Example 3
+theme: '#279BAB'       
+background: '#15464C'  
+footer: '#15464C'
+Font-style: cool
 ![example3](screenshots/example3.png)
 
 ### Example 4
+theme: '#ECA70C'       
+background: '#EEE'  
+footer: '#7B5705'
+Font-style: cute
 ![example4](screenshots/example4.png)
+
+### Example 5
+theme: '#2D9853'       
+background: '#D3DCDA'  
+footer: '#111F1A'
+Font-style: custom
+![example5](screenshots/example5.png)
 
 ##License
 [MIT](/LICENSE)

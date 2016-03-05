@@ -1,3 +1,7 @@
+//logo
+logo-true = hexo-config("imglogo.enable")
+logo-src = hexo-config("imglogo.src")
+
 //Color
 _color-theme = convert(hexo-config("theme_color.theme"))
 if(_color-theme is a 'rgba')
@@ -53,15 +57,19 @@ tabletmax = "only screen and (max-width: " + width-tablet + ")"
 font-default = "Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif
 font-serif = "Georgia", serif
 font-mono = Monaco, Menlo, Consolas, Courier New, monospace
-font-custom-family = "chalkboardse-bold-webfont"
-font-custom-filename = chalkboardse-bold-webfont
+font-custom-family = "ReenieBeanie"  
+font-custom-filename = ReenieBeanie  
+font-cute-family = "chalkboardse-bold-webfont"
+font-cute-filename = chalkboardse-bold-webfont
+font-cool-family = "coveredbyyourgrace-webfont" 
+font-cool-filename = coveredbyyourgrace-webfont
 font-icon-family = "FontAwesome"
 font-icon-filename = fontawesome-webfont
 font-icon-version = "4.0.3"
 font-icon-diao = "fontdiao"
 font-icon-diao-filename = "fontdiao"
 font-icon-diao-version = "0.0.8"
-ShowCustomFont = hexo-config("ShowCustomFont")
+Font-style = hexo-config("Font-style")
 font-size = 100%
 line-height = 1.5
 //image
@@ -69,6 +77,7 @@ author-img = hexo-config("author_img")
 
 //comment
 duoshuo = hexo-config("duoshuo_shortname")
+
 
 //banner image
 banner-img = hexo-config("banner_img")

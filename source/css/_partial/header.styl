@@ -46,25 +46,54 @@ body
   h1.site-name
     text-align center
     margin auto
-    margin-top 10px;
     width 86%
-    if ShowCustomFont
+    if Font-style == custom
       font-family font-custom-family
+      font-size font-size+150
+      line-height line-height - 0.5
+      margin-top 0.1em;
+      font-smoothing()
+      @media mini
+        margin-top 0.3em;
+        font-size font-size+200
+      @media tablet
+        margin-top 0.4em;
+        font-size font-size+280
+        line-height line-height - 0.5
+    else if Font-style == cute
+      font-family font-cute-family
       font-size font-size+100
       line-height line-height
       font-smoothing()
       @media mini
+        margin-top 0.2em;
         font-size font-size+140
       @media tablet
+        margin-top 0.2em;
         font-size font-size+180
+        line-height line-height
+    else if Font-style == cool
+      font-family font-cool-family
+      font-size font-size+120
+      line-height line-height
+      font-smoothing()
+      @media mini
+        margin-top 0.4em;
+        font-size font-size+160
+      @media tablet
+        margin-top 0.4em;
+        font-size font-size+200
+        line-height line-height
     else
       font-family font-default
       font-size font-size+60
-      line-height line-height+0.4
+      line-height line-height+0.2
       font-weight normal
       @media mini
+        margin-top 0.3em;
         font-size font-size+90
       @media tablet
+        margin-top 0.4em;
         font-size font-size+120
   h2.blog-motto
     font-size 0.7em

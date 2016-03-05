@@ -3,7 +3,10 @@
   display none
   position fixed
   right 7.5%
-  top 260px
+  if logo-true && logo-src
+    top 320px
+  else
+    top 260px
   a
     display block
     color color-white

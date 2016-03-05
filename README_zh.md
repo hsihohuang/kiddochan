@@ -2,7 +2,7 @@
 
 [README](/README.md)
 
-Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 可愛且適合所有螢幕尺寸的主題樣式，是基於[Jacman](https://github.com/wuchong/jacman)修改而来。
+Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 彈性且適合所有螢幕尺寸的主題樣式，是基於[Jacman](https://github.com/wuchong/jacman)修改而来。 最底部有一些樣式個人化設定的範例。
 
 
 [主題預覽](http://blog.hsihohuang.info) 
@@ -39,19 +39,42 @@ git pull origin master
 
 修改  `/themes/kiddochan/_config.yml` 中的設定。
 
-##個人化設定之範例
+
+##樣式個人化設定之範例
 ### 範例 1
+theme: '#403D3D'       
+background: '#DBDBDB'  
+footer: '#403D3D'
+Font-style: cool
 ![example1](screenshots/example1.png)
 
 ### 範例 2
+theme: '#D07272'       
+background: '#FCC'  
+footer: '#4A4848'
+Font-style: cute
 ![example2](screenshots/example2.png)
 
-
 ### 範例 3
+theme: '#279BAB'       
+background: '#15464C'  
+footer: '#15464C'
+Font-style: cool
 ![example3](screenshots/example3.png)
 
 ### 範例 4
+theme: '#ECA70C'       
+background: '#EEE'  
+footer: '#7B5705'
+Font-style: cute
 ![example4](screenshots/example4.png)
+
+### 範例 5
+theme: '#2D9853'       
+background: '#D3DCDA'  
+footer: '#111F1A'
+Font-style: custom
+![example5](screenshots/example5.png)
 
 ##License
 [MIT](/LICENSE)

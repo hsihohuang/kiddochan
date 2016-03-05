@@ -42,32 +42,22 @@ footer
     top 6em
     margin 0 0 1.5em
 
-.info
-  if ShowCustomFont
-    font-family font-custom-family
-    font-smoothing()
-    font-size font-size+50
-    line-height 1.3em
-  else
-    font-family font-default
-    line-height line-height+0.15
-  width 90%
-  margin 0 auto
-  color color-white
-  @media mini
-    margin auto
-    width 75%
-  p
-    text-align center
-
 
 .copyright
-  if ShowCustomFont
+  if Font-style == custom
     font-smoothing()
     font-family font-custom-family
+    font-size 1.5em
+  else if Font-style == cute 
+    font-smoothing()
+    font-family font-cute-family
+  else if Font-style == cool 
+    font-smoothing()
+    font-family font-cool-family
+    font-size 1.3em
   else
     font-family font-default
-    font-size 0.6em
+    font-size 1em
   width 100%
   color color-white
   text-align center
