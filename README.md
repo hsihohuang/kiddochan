@@ -219,5 +219,9 @@ footer: '#111F1A' <br>
 Font-style: custom
 ![example5](screenshots/example5.png)
 
+##Google custom search page
+##### Example(Search: quicksort)
+![googleCustomSearch](screenshots/google_custom_search.png)
+
 ##License
 [MIT](/LICENSE)

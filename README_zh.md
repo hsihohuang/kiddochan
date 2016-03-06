@@ -76,5 +76,9 @@ footer: '#111F1A' <br>
 Font-style: custom
 ![example5](screenshots/example5.png)
 
+##Google 自訂搜尋頁面
+##### 範例(搜尋: quicksort)
+![googleCustomSearch](screenshots/google_custom_search.png)
+
 ##License
 [MIT](/LICENSE)
