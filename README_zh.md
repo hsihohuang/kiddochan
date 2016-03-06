@@ -4,6 +4,7 @@
 
 Kiddochan 是 [Hexo](http://hexo.io) 的一款簡單, 彈性且適合所有螢幕尺寸的主題樣式，是基於[Jacman](https://github.com/wuchong/jacman)修改而来。 最底部有一些樣式個人化設定的範例。
 
+[更多關於Kiddochan](http://blog.hsihohuang.info/tags/Kiddochan/) 
 
 [主題預覽](http://blog.hsihohuang.info) 
 
@@ -73,7 +74,10 @@ Font-style: cute
 theme: '#2D9853'       
 background: '#D3DCDA'  
 footer: '#111F1A' <br>
-Font-style: custom
+Font-style: custom<br>
+**注意：預設的custom字型是"ReenieBeanie"，你可以換成你要的字型**
+**更換方法: 你必須要放把字體的檔案(共四種檔.ttf, .woff, .svg, .eot, 你可以用[這個工具](https://www.web-font-generator.com)去產生) 放入`kiddochan/source/font`資料夾中**
+**然後把`/kiddochan/source/css/_base`中的`variable.styl`裡面的`font-custom-family`和`font-custom-filename`改成你自己的字體檔名.)**
 ![example5](screenshots/example5.png)
 
 ##Google 自訂搜尋頁面

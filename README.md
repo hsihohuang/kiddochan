@@ -4,6 +4,8 @@
 
 Kiddochan is a simple, flexible and responsive theme for [Hexo](http://hexo.io) based on [Jacman](https://github.com/wuchong/jacman). Some custom theme examples are at the bottom. 
 
+[More about Kiddochan](http://blog.hsihohuang.info/tags/Kiddochan/) 
+
 [Demo](http://blog.hsihohuang.info) 
 
 ##Screenshots
@@ -85,9 +87,11 @@ theme_color:
 ### Font Style
 Font-style: cute
 ## you can choose: default , cute , cool , custom   
-## if you choose custom, you have to add custom font files in `kiddochan/source/font`(.ttf, .woff, .svg, .eot) 
-## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.
 ## Note: default custom font is "ReenieBeanie", you can change this to yours
+## if you want to change the default custom font, you have to add custom font files(.ttf, .woff, .svg, .eot) in `kiddochan/source/font`
+## (you can use [this tool](https://www.web-font-generator.com) to generate your web font)
+## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`. 
+
 
 # code highlight theme
 # available: default | night
@@ -216,7 +220,11 @@ Font-style: cute
 theme: '#2D9853'       
 background: '#D3DCDA'  
 footer: '#111F1A' <br>
-Font-style: custom
+Font-style: custom <br>
+**Note: default custom font is "ReenieBeanie", you can change this to yours.**
+**if you want to change the default custom font, you have to add custom font files(.ttf, .woff, .svg, .eot) in `kiddochan/source/font` 
+**(you can use [this tool](https://www.web-font-generator.com) to generate your web font)**
+**and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.**
 ![example5](screenshots/example5.png)
 
 ##Google custom search page
