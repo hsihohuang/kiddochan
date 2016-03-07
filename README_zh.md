@@ -75,9 +75,9 @@ theme: '#2D9853'
 background: '#D3DCDA'  
 footer: '#111F1A' <br>
 Font-style: custom<br>
-**注意：預設的custom字型是"ReenieBeanie"，你可以換成你要的字型**
-**更換方法: 你必須要放把字體的檔案(共四種檔.ttf, .woff, .svg, .eot, 你可以用[這個工具](https://www.web-font-generator.com)去產生) 放入`kiddochan/source/font`資料夾中**
-**然後把`/kiddochan/source/css/_base`中的`variable.styl`裡面的`font-custom-family`和`font-custom-filename`改成你自己的字體檔名.)**
+**注意：預設的custom字型是"ReenieBeanie"，你可以換成你要的字型** <br>
+**更換方法: 你必須要放把字體的檔案(共四種檔.ttf, .woff, .svg, .eot, 你可以用[這個工具](https://www.web-font-generator.com)去產生) 放入`kiddochan/source/font`資料夾中，**
+**然後把`/kiddochan/source/css/_base`中的`variable.styl`裡面的`font-custom-family`和`font-custom-filename`改成你自己的字體檔名.**
 ![example5](screenshots/example5.png)
 
 ##Google 自訂搜尋頁面

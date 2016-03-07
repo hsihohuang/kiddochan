@@ -86,7 +86,7 @@ theme_color:
 
 ### Font Style
 Font-style: cute
-## you can choose: default , cute , cool , custom   
+## you can choose: default, cute , cool , custom   
 ## Note: default custom font is "ReenieBeanie", you can change this to yours
 ## if you want to change the default custom font, you have to add custom font files(.ttf, .woff, .svg, .eot) in `kiddochan/source/font`
 ## (you can use [this tool](https://www.web-font-generator.com) to generate your web font)
@@ -222,8 +222,8 @@ background: '#D3DCDA'
 footer: '#111F1A' <br>
 Font-style: custom <br>
 **Note: default custom font is "ReenieBeanie", you can change this to yours.**
-**if you want to change the default custom font, you have to add custom font files(.ttf, .woff, .svg, .eot) in `kiddochan/source/font` 
-**(you can use [this tool](https://www.web-font-generator.com) to generate your web font)**
+**If you want to change the default custom font, you have to add custom font files(.ttf, .woff, .svg, .eot) in `kiddochan/source/font` 
+(you can use [this tool](https://www.web-font-generator.com) to generate your web font)**
 **and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.**
 ![example5](screenshots/example5.png)
 
