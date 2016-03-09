@@ -48,11 +48,12 @@ theme_color:
     footer: ''      ## default: '#2c3e50'
 
 ### Font Style
-Font-style: cute  
-## you can choose: default , cute , cool , custom 
-## if you choose custom, you have to add custom font files in `kiddochan/source/font`(.ttf, .woff, .svg, .eot) 
-## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`.
+Font-style: cute
+## you can choose: default, cute , cool , custom   
 ## Note: default custom font is "ReenieBeanie", you can change this to yours
+## if you want to change the default custom font, you have to add custom font files(.woff2, .woff, .ttf, .eot) in `kiddochan/source/font`
+## (you can use [this tool](http://www.fontsquirrel.com/tools/webfont-generator) to generate your web font)
+## and then change font-custom-family & font-custom-filename in `variable.styl` which in the theme folder `/kiddochan/source/css/_base`. 
 
 # code highlight theme
 # available: default | night

@@ -7,11 +7,10 @@ customfont(family, filename)
     font-family family
     font-weight normal
     font-style normal
-    src url(font-url(filename + '.eot'))
-    src url(font-url(filename + '.eot?#iefix')) format('embedded-opentype'),
-    url(font-url(filename + '.svg#'+ family)) format('svg'), 
-    url(font-url(filename + '.woff')) format('woff'), 
-    url(font-url(filename + '.ttf')) format('truetype')    
+    src url(font-url(filename + '.woff2')) format('woff2'),
+        url(font-url(filename + '.woff')) format('woff'), 
+        url(font-url(filename + '.ttf')) format('truetype'),    
+        url(font-url(filename + '.eot')) format("embedded-opentype")
 
 customfont(font-cute-family,font-cute-filename)
 customfont(font-cool-family,font-cool-filename)    
